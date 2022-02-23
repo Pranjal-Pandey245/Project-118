@@ -1,0 +1,54 @@
+#sketch_p{
+    font-size: 18px;
+
+}
+
+#confidence{
+    font-size: 18px;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+#score{
+    font-size: 23px;
+    margin-left: -888px;
+}
+
+#timer{
+    font-size: 23px;
+    float: right;
+    margin-right: 90px;
+}
+
+h1{
+    background-color: greenyellow;
+}
+
+#sketch_to_draw{
+    font-size: large;
+    color: coral;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
