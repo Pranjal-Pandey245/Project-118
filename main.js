@@ -21,12 +21,18 @@ sketch= Element_of_array;
 function draw(){ 
    
     strokeWeight(13);
-    stroke(0);
+stroke(0);
 
-    if(mouseIsPressed){
-       line(pmouseX, pmouseY, mouseX, mouseY);
-    }
+if(mouseIsPressed){
+   line(pmouseX, pmouseY, mouseX, mouseY);
+}
 
+strokeWeight(13);
+stroke(0);
+
+if(mouseIsPressed){
+   line(pmouseX, pmouseY, mouseX, mouseY);
+}
 
 
      check_sketch();
@@ -55,8 +61,6 @@ function check_sketch(){
         update_canvas();
     }
 }
-
-
 
 
 
